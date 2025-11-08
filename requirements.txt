@@ -1,0 +1,14 @@
+SpeechRecognition==3.10.0
+pyttsx3==2.90
+# pyaudio==0.2.13  # Not compatible with Python 3.13 - see installation instructions below
+wikipedia==1.4.0
+pyjokes==0.6.0
+requests==2.31.0
+
+# For Python 3.13 users:
+# Option 1: Install PyAudio from unofficial binaries
+#   Download from: https://github.com/intxcc/pyaudio_portaudio/releases
+#   Then: pip install PyAudio-0.2.14-cp313-cp313-win_amd64.whl
+#
+# Option 2: Use alternative - install without PyAudio and use system default mic
+#   The code will still work but may have reduced audio quality
